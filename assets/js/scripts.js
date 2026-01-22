@@ -25,7 +25,14 @@ jQuery(document).ready(function($){
 
         });
 
-
+       $('.sales-review-boxes-wrapper').slick({
+            infinite: true,
+            slidesToShow: 3,
+            arrows: false,
+            dots: false,
+            slidesToScroll: 3
+            });
+		
 
 
     
