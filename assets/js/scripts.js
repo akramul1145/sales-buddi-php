@@ -1,11 +1,32 @@
 
-  document.querySelectorAll('.accordion-header').forEach(button => {
-    button.addEventListener('click', () => {
-      const item = button.parentElement;
-      const icon = button.querySelector('.icon');
+jQuery(document).ready(function($){ 
 
-      item.classList.toggle('active');
-      icon.textContent = item.classList.contains('active') ? '−' : '+';
-    });
-  });
 
+        $('.accordion-header').eq(0).addClass('active');
+        $('.accordion-content').eq(0).slideDown();
+
+        $(".accordion-header").on('click', function (){
+            
+            var trigger = $(this);
+            var hasClass = trigger.hasClass('active');
+
+            $('.accordion-header').removeClass('active');
+            $('.accordion-header').next().slideUp();
+            
+            if(hasClass) {
+                trigger.removeClass('active');
+                trigger.next().slideUp();
+            }
+
+            else {
+                trigger.addClass('active');
+                trigger.next().slideToggle();          
+            }
+
+        });
+
+
+
+
+    
+});   

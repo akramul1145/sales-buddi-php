@@ -9,71 +9,59 @@ Frequently Asked Questions
 .accordion-wrapper {
 	max-width: 56.25rem;
 	margin: 2.5rem auto;
-	font-family: sans-serif;
 }
 .accordion-box {
 	border-radius: 1rem;
 	border: 1px solid rgba(255, 255, 255, 0.03);
 	background: #171717;
-	padding: 0.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
 	margin-bottom: 0.75rem;
 }
 .accordion-header {
-	width: 100%;
-	padding: 0.938rem;
-	border: none;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	padding-top: 0.938rem;
+	padding-bottom: 0.938rem;
 	cursor: pointer;
 	font-size: 1.125rem;
 	letter-spacing: -0.18px;
 	line-height: 140%;
-	background: transparent;
-	color: var(--sb-white);
 	text-align: left;
+	color: var(--sb-white);
+	position: relative;
+	padding-right: 50px;
 }
-.accordion-content P {
-	font-size: 0.938rem;
-}
-.accordion-content {
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.4s ease, padding 0.3s ease;
-	padding: 0 1rem;
-	max-width: 50rem;
-}
-.accordion-box.active .accordion-content {
-	display: block;
-	max-height: 300px; /* large enough */
-
-}
-.accordion-box .icon {
+.accordion-header::after {
+	position: absolute;
+	content: "+";
 	width: 20px;
 	height: 20px;
-	font-size: 15px;
-	border: 2px solid #fff;
+	line-height: 22px;
+	border: 1.5px solid #fff;
+	border-radius: 50%;
+	text-align: center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	border-radius: 50%;
-	transition: transform 0.3s ease;
+	right: 15px;
+	top: 16px;
 }
-.accordion-box.active .icon {
-  content: "-";
-}
-@media only screen and (max-width:767px) {
-.accordion-header {
-	font-size: 0.938rem;
-	padding-bottom: 10px;
-	align-items: start;
-}
-.accordion-content {
-	max-width: 20rem;
+.accordion-header.active::after {
+	content: "-";
+	line-height: 18px;
 }
 .accordion-content P {
-	font-size: 0.875rem;
+	font-size: 0.938rem;
 }
+.accordion-content {
+	display: none;
+	overflow: hidden;
+	padding-bottom: 1.25rem;
+}
+
+
+@media only screen and (max-width:767px) {
+
+
+
 }
 
 /*

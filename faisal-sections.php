@@ -7,52 +7,47 @@
         <!-- Accordion Start -->
         <div class="accordion-wrapper">
             <div class="accordion-box">
-                <button class="accordion-header">
-                    <span>How does Sales Buddi tailor its coaching?</span>
-                    <span class="icon">+</span>
-                </button>
+                <div class="accordion-header">
+                    How does Sales Buddi tailor its coaching? How does Sales Buddi tailor its coaching? How doessss?sadfasfdadfs
+                </div>
                 <div class="accordion-content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
                 </div>
             </div>
             <!-- Accordion Item -->
             <div class="accordion-box">
-                <button class="accordion-header">
-                    <span>What kind of techniques does it teach?</span>
-                    <span class="icon">+</span>
-                </button>
+                <div class="accordion-header">
+                    What kind of techniques does it teach?
+                </div>
                 <div class="accordion-content">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
                 </div>
             </div>
             <!-- Accordion Item -->
             <div class="accordion-box">
-                <button class="accordion-header">
-                    <span>Can it really help me understand my customers better?</span>
-                    <span class="icon">+</span>
-                </button>
+                <div class="accordion-header">
+                    Can it really help me understand my customers better?
+                </div>
                 <div class="accordion-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
                 </div>
             </div>
             <!-- Accordion Item -->
             <div class="accordion-box">
-                <button class="accordion-header">
-                    <span>How does Sales Buddi tailor its coaching?</span>
-                    <span class="icon">+</span>
-                </button>
+                <div class="accordion-header">
+                    How does Sales Buddi tailor its coaching?
+                </div>
                 <div class="accordion-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
                 </div>
             </div>
             <!-- Accordion Item -->
             <div class="accordion-box">
-                <button class="accordion-header">
-                    <span>How does Sales Buddi tailor its coaching?</span>
-                    <span class="icon">+</span>
-                </button>
+                <div class="accordion-header">
+                    How does Sales Buddi tailor its coaching?
+                </div>
                 <div class="accordion-content">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum optio eius, in provident pariatur deleniti natus commodi harum voluptates delectus.</p>
                 </div>
             </div>
         </div>
