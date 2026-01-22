@@ -6,7 +6,8 @@
           <h2>What <span>Real Sales-People</span> Are Saying</h2>
          </div>
          <!-- Review Testimonilas Start -->
-          <div class="sales-review-boxes-wrapper mt-25 mt-lg-45">
+        <div class="review-carousel-wrapper">
+          <div class="sales-review-boxes-wrapper sales-review-ltr mt-25 mt-lg-45">
                <div class="sales-review-box">
                    <span class="stars-review">
                        <img src="assets/images/review-stars.svg" alt="">
@@ -52,6 +53,56 @@
                </div>
             <!-- Sales Review Box Item -->
           </div>
+
+          <div class="sales-review-boxes-wrapper sales-review-rtl mt-25 mt-lg-45" dir="rtl">
+               <div class="sales-review-box">
+                   <span class="stars-review">
+                       <img src="assets/images/review-stars.svg" alt="">
+                   </span>
+                    <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
+                    <div class="sales-review-thumb">
+                         <img src="assets/images/review-thumb-1.png" alt="">
+                         <span>John S.</span>
+                    </div>
+               </div>
+            <!-- Sales Review Box Item -->
+             <div class="sales-review-box">
+                   <span class="stars-review">
+                       <img src="assets/images/review-stars.svg" alt="">
+                   </span>
+                    <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
+                    <div class="sales-review-thumb">
+                         <img src="assets/images/review-thumb-1.png" alt="">
+                         <span>John S.</span>
+                    </div>
+               </div>
+            <!-- Sales Review Box Item -->
+             <div class="sales-review-box">
+                   <span class="stars-review">
+                       <img src="assets/images/review-stars.svg" alt="">
+                   </span>
+                    <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
+                    <div class="sales-review-thumb">
+                         <img src="assets/images/review-thumb-1.png" alt="">
+                         <span>John S.</span>
+                    </div>
+               </div>
+            <!-- Sales Review Box Item -->
+              <div class="sales-review-box">
+                   <span class="stars-review">
+                       <img src="assets/images/review-stars.svg" alt="">
+                   </span>
+                    <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
+                    <div class="sales-review-thumb">
+                         <img src="assets/images/review-thumb-1.png" alt="">
+                         <span>John S.</span>
+                    </div>
+               </div>
+            <!-- Sales Review Box Item -->
+          </div>
+
+        </div>
+
  </section>
 <!-- Sales Review Section End -->
 

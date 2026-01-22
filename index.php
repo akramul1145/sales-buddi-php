@@ -20,3 +20,6 @@ include 'faisal-sections.php';
 // Include footer
 include 'partials/footer.php';
 ?>
+
+
+

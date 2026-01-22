@@ -6,11 +6,23 @@
 	background: rgba(255, 255, 255, 0.04);
 }
 
+.sales-review-boxes-wrapper {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.sales-review-boxes-wrapper:last-of-type {
+	margin-bottom: 0;
+}
+
 .sales-review-box {
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.06);
   background: #121212;
   padding: 2.5rem;
+  direction: ltr;
+  text-align: left;
 }
 .stars-review {
   display: block;
@@ -38,6 +50,30 @@
   line-height: normal;
 }
 
+.review-carousel-wrapper {
+  position: relative;
+}
+.review-carousel-wrapper::before {
+  position: absolute;
+  content: "";
+  width: 615px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #121212 8.94%, rgba(18, 18, 18, 0.00) 67.48%);
+  z-index: 3333;
+}
+.review-carousel-wrapper::after {
+  position: absolute;
+  content: "";
+  width: 615px;
+  height: 100%;
+  top: 0;
+  left: auto;
+  right: 0;
+  background: linear-gradient(270deg, #121212 8.94%, rgba(18, 18, 18, 0.00) 67.48%);
+  z-index: 3333;
+}
 
 /* Sales Review Css End */
 
