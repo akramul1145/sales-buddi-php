@@ -1,0 +1,191 @@
+/*
+==================================
+Frequently Asked Questions
+==================================
+*/
+.section-heading h2 span {
+	color: var(--sb-primary);
+}
+.accordion-wrapper {
+	max-width: 56.25rem;
+	margin: 2.5rem auto;
+	font-family: sans-serif;
+}
+.accordion-box {
+	border-radius: 1rem;
+	border: 1px solid rgba(255, 255, 255, 0.03);
+	background: #171717;
+	padding: 0.5rem;
+	margin-bottom: 0.75rem;
+}
+.accordion-header {
+	width: 100%;
+	padding: 0.938rem;
+	border: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	font-size: 1.125rem;
+	letter-spacing: -0.18px;
+	line-height: 140%;
+	background: transparent;
+	color: var(--sb-white);
+	text-align: left;
+}
+.accordion-content P {
+	font-size: 0.938rem;
+}
+.accordion-content {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease, padding 0.3s ease;
+	padding: 0 1rem;
+	max-width: 50rem;
+}
+.accordion-box.active .accordion-content {
+	display: block;
+	max-height: 300px; /* large enough */
+
+}
+.accordion-box .icon {
+	width: 20px;
+	height: 20px;
+	font-size: 15px;
+	border: 2px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: transform 0.3s ease;
+}
+.accordion-box.active .icon {
+  content: "-";
+}
+@media only screen and (max-width:767px) {
+.accordion-header {
+	font-size: 0.938rem;
+	padding-bottom: 10px;
+	align-items: start;
+}
+.accordion-content {
+	max-width: 20rem;
+}
+.accordion-content P {
+	font-size: 0.875rem;
+}
+}
+
+/*
+==================================
+Deal Slip Away Section
+==================================
+*/
+.deal-slip-away {
+  position: relative;
+}
+.deal-slip-away:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  background: radial-gradient( 50% 100% at 50% 0%, rgba(203, 245, 109, 0.35), rgba(203, 245, 109, 0) );
+}
+.deal-slip-inner {
+	display: grid;
+	grid-template-columns: repeat(2, 468px);
+	column-gap: 40px;
+	justify-content: space-around;
+}
+.section-heading h2 {
+  margin-bottom: 1rem;
+}
+.deal-slip-content-bottom h4 {
+	color: var(--sb-primary);
+	letter-spacing: -0.72px;
+	line-height: 140%;
+	font-size: 1.5rem;
+	margin-top: 0.6250rem;
+	font-family: "Inter", sans-serif;
+}
+.deal-slip-content-bottom h4 span {
+   color: #BCA5FF;
+    text-decoration-line: line-through;
+}
+.deal-slip-content-bottom p {
+  line-height: 140%;
+  letter-spacing: -0.54px;
+}
+.deal-slip-content-bottom .site-btn {
+	margin-top: 2.0000rem;
+	display: inline-block;
+}
+.deal-slip-content-bottom .clients-review {
+	margin-top: 0.7500rem;
+}
+.socials-app-wrapper {
+	margin-top: 2.0000rem;
+	display: flex;
+	column-gap: 0.6250rem;
+	flex-wrap: wrap;
+}
+.socials-app-wrapper img {
+	height: 49px;
+}
+
+/* Footer Style */
+.site-footer {
+  background: var(--sb-primary);
+}
+
+/*
+==================================
+Responsive Styles
+==================================
+*/
+@media only screen and (max-width: 1199px) {
+.deal-slip-inner {
+	grid-template-columns: repeat(2, 400px);
+}
+}
+@media only screen and (max-width: 991px) {
+.site-btn {
+	font-size: 1rem;
+	padding: 14px 30px;
+}
+.deal-slip-inner {
+	grid-template-columns: repeat(2, 1fr);
+}
+.deal-slip-content-bottom h4 {
+	font-size: 1.2rem;
+}
+p {
+	font-size: 0.9375rem;
+}
+.deal-slip-inner {
+	grid-template-columns: repeat(1, 1fr);
+	row-gap: 2.813rem;
+}
+}
+@media only screen and (max-width: 767px) {
+.deal-slip-content-bottom h4 {
+	font-size: 1rem;
+}
+.deal-slip-content-bottom .site-btn {
+	margin-top: 1.5rem;
+	display: inline-block;
+}
+.socials-app-wrapper {
+	margin-top: 1.5rem;
+	display: flex;
+	column-gap: 0.6250rem;
+	row-gap: 1.25rem;
+}
+.site-btn {
+	font-size: 0.938rem;
+	padding: 12px 28px;
+}
+}
+

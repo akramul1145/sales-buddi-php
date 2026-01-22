@@ -1,0 +1,11 @@
+/*
+===========================================================================================================
+                        Sales Buddi - Modular CSS Structure
+===========================================================================================================
+*/
+
+/* Imran's Styles - Header and Hero Section */
+@import url('imran-style.css');
+
+/* Faisal's Styles - FAQ and Deal Slip Away Section */
+@import url('faisal-style.css');

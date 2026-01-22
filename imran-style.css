@@ -1,0 +1,197 @@
+/* Imran CSS  */
+/*
+=============================
+Header Style Start
+=============================
+*/
+.site-header {
+	position: relative;
+}
+.site-branding {
+	width: 4.5rem;
+	height: 4.3125rem;
+	margin: 0 auto;
+}
+
+/* Header Shape */
+.shape-wrapper .header-left-shape {
+	width: 36.7969rem;
+	height: 27.7028rem;
+	transform: rotate(63.377deg);
+	border-radius: 36.7969rem;
+	opacity: 0.23;
+	background: var(--sb-primary);
+	filter: blur(14.6563rem);
+	margin-left: -22.6875rem;
+}
+.shape-wrapper .header-right-shape {
+	width: 40.875rem;
+	height: 34.0687rem;
+	transform: rotate(-35.775deg);
+	border-radius: 40.875rem;
+	opacity: 0.23;
+	background: #BCA5FF;
+	filter: blur(122.8499984741211px);
+	margin-right: -25.5625rem;
+}
+.shape-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -30.625rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+@media only screen and (max-width: 400px){
+	.site-branding {
+		width: 2.625rem;
+		height: 2.5125rem;
+		border-radius: .6875rem;
+		overflow: hidden;
+	}
+	.shape-wrapper .header-left-shape {
+		width: 22.4754rem;
+		height: 16.9208rem;
+		transform: rotate(63.377deg);
+		border-radius: 22.4754rem;
+		filter: blur(14.6563rem);
+		margin-left: -15.25rem;
+	}
+	.shape-wrapper .header-right-shape {
+		width: 24.9663rem;
+		height: 20.809rem;
+		transform: rotate(-35.775deg);
+		border-radius: 24.9663rem;
+		filter: blur(7.6781rem);
+		margin-right: -23.1875rem;
+	}
+	.shape-wrapper {
+		margin-top: -4.75rem;
+	}
+}
+
+/* 
+=============================
+Hero Style Start
+=============================	
+*/
+
+.client-review-top {
+	width: 24.0625rem;
+	margin-bottom: 1.5rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hero-content {
+	text-align: center;
+}
+.hero-content h1,
+.hero-content p {
+	margin-bottom: 1.5rem;
+}
+.hero-content span {
+	color: #BCA5FF;
+}
+.quiz-btn {
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+.hero-content .app-link {
+	display: flex;
+	justify-content: center;
+	column-gap: .5rem;
+	align-items: center;
+}
+.hero-content .app-link span {
+	margin-right: .125rem;
+	color: var(--sb-text-color);
+	font-family: var(--font-instrument-sans);
+	font-size: .75rem;
+	line-height: normal;
+	font-weight: 400;
+	letter-spacing: -0.0075rem;
+}
+.app-icn {
+	display: flex;
+	align-items: center;
+}
+.app-icn a {
+	display: flex;
+	flex-shrink: 0;
+	align-items: center;
+}
+.app-showcase-inner .mobile-mockup {
+  width: 500px;
+  height: 486px;
+  margin: 0 auto;
+}
+.app-showcase-inner {
+	text-align: center;
+	position: relative;
+}
+.mobile-mockup .text-svg svg {
+	margin-top: -20px;
+	display: block;
+}
+.text-svg {
+	margin-top: -62px;
+	position: relative;
+	z-index: -1;
+}
+.app-showcase-inner::after {
+	background: #12121299;
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.app-showcase-inner .app-about {
+	width: 432px;
+	padding: 24px;
+	border-radius: 18.667px;
+	border: 9px solid rgba(255, 255, 255, 0.02);
+	background: radial-gradient(133.5% 133.5% at 50.14% 90.33%, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(26, 26, 26, 0.80);
+	backdrop-filter: blur(13.350000381469727px);
+	position: absolute;
+	bottom: 71px;
+	left: 164px;
+	text-align: start;
+}
+.app-showcase-inner .app-about h2 {
+	font-family: var(--font-zalando-sans);
+	font-size: 24px;
+	color: var(--sb-primary);
+	margin-bottom: 9.33px;
+}
+.app-showcase-inner .app-about h2 span {
+	color: #C7B4FF;
+	padding-left: .25rem;
+}
+.app-about p {
+	font-family: var(--font-instrument-sans);
+	font-size: 16px;
+	color: var(--sb-heading);
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%;
+	letter-spacing: -0.16px;
+}
+
+@media only screen and (max-width: 400px){
+	.client-review-top {
+	width: 17.375rem;
+	margin-bottom: 1rem;
+}
+.hero-content h1 {
+	font-size: 1.5rem;
+}
+.hero-content h1, .hero-content p {
+	margin-bottom: 1rem;
+}
+}
+
