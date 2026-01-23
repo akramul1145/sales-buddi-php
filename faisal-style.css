@@ -1,4 +1,148 @@
 
+
+/* What Sales Css Start */
+.what-sales-list p:first-child {
+  margin-bottom: -15px;
+  color: var(--sb-white);
+  margin-top: 1.25rem;
+}
+.what-sales-list ul {
+  padding-left: 1.25rem;
+}
+.what-sales-list ul li {
+  color: var(--sb-white);
+  font-family: var(--font-instrument-sans);
+  letter-spacing: -0.18px;
+  font-weight: 500;
+}
+.what-sales-buddi .section-heading p {
+	max-width: 54.625rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+.what-sales-boxes-wrapper .what-sales-boxes-inner:not(:last-child) {
+	margin-bottom: 2rem;
+}
+.what-sales-boxes-inner {
+  border-radius: 1rem;
+  border-top: 1px solid var(--Border-Gradient, rgba(212, 247, 134, 0.20));
+  background: radial-gradient(66.55% 191.95% at 50% 242.45%, rgba(226, 230, 233, 0.10) 0%, rgba(226, 230, 233, 0.00) 100%), #1A1A1A;
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 3rem;
+}
+.what-sales-contents {
+	width: 51.625rem;
+}
+.what-sales-contents h5 {
+	color: #F5F5F5;
+	letter-spacing: -0.4px;
+	line-height: normal;
+	font-weight: 600;
+	font-family: var(--font-zalando-sans);
+	margin-bottom: 3.75rem;
+	display: flex;
+	align-items: center;
+	column-gap:  0.625rem;
+}
+.what-sales-contents h5 span {
+  color: var(--sb-primary);
+  border-radius: 300px;
+  border: 1px solid var(--sb-primary);
+  padding: 0.25rem 1.5rem;
+}
+.what-sales-contents p span {
+	color: var(--sb-white);
+}
+.what-sales-box-footer {
+	border-radius: 1rem;
+	background: rgba(255, 255, 255, 0.03);
+	padding: 2.25rem 1.25rem;
+	position: relative;
+	max-width: 35.438rem;
+}
+.what-sales-box-footer .qute-icon {
+	background-color: #BCA5FF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 3.188rem;
+	height: 3.188rem;
+	border-radius: 50%;
+	position: absolute;
+	top: -1.563rem;
+	z-index: 2;
+	left: 1.5rem;
+}
+.what-sales-box-footer p {
+	color: #E2E6E9;
+	font-family: var(--font-instrument-sans);
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: -0.56px;
+	line-height: normal;
+	font-size: 1.125rem;
+	margin-top: 0.375rem;
+}
+.what-sales-box-footer p span {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.56px;
+}
+.follow-up-contens p:nth-child(2) {
+	color: var(--sb-white);
+}
+.what-sales-image img {
+  border-radius: 0.838rem;
+}
+.what-sales-footer p {
+  color: #E7E7E7;
+  max-width: 44.875rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  letter-spacing: -0.48px;
+  font-weight: 600;
+  line-height: normal;
+  font-family: var(--font-zalando-sans);
+}
+@media only screen and (max-width: 1400px) {
+.what-sales-contents {
+	width: 40.625rem;
+}
+}
+@media only screen and (max-width: 1199px) {
+.what-sales-contents {
+	width: 35.625rem;
+}
+.what-sales-contents h5 {
+	margin-bottom: 2.75rem;
+}
+}
+@media only screen and (max-width:991px) {
+.what-sales-contents {
+	width: auto;
+}
+.what-sales-boxes-inner {
+	grid-template-columns: repeat(1, 1fr);
+	row-gap: 3rem;
+}
+.what-sales-footer p {
+	font-size: 1.25rem;
+}
+}
+@media only screen and (max-width: 767px) {
+.what-sales-footer p {
+	font-size: 1.1rem;
+}
+.what-sales-box-footer p {
+	font-size: 1.1rem;
+}
+}
+/* What Sales Css End */
+
+
 /* Sales Review Css Start */
 .sales-review-section .clients-review {
 	border-radius: 300px;
@@ -79,6 +223,9 @@
 
 
 /* Story Section Css Start */
+.story-section .section-heading {
+	margin-bottom: -20px;
+}
 .story-inner {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
@@ -351,7 +498,7 @@ p {
 }
 @media only screen and (max-width: 767px) {
 .sec_border::before {
-	height: 0.5rem;
+	height: 0.2rem;
 }
 .deal-slip-content-bottom h4 {
 	font-size: 1rem;
@@ -369,6 +516,9 @@ p {
 .site-btn {
 	font-size: 0.938rem;
 	padding: 0.75rem 1.75rem;
+}
+.deal-slip-right {
+	max-width: 18.75rem;
 }
 }
 /*

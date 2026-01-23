@@ -1,7 +1,108 @@
-
+<!-- What Sales Buddi Start -->
+ <section class="what-sales-buddi layout-padding pt-70 pb-50 pt-lg-100 pb-lg-100">
+     <div class="sb-container">
+         <div class="section-heading text-center">
+              <h2>What <span>Sales Buddi</span> Does For You</h2>
+              <p class="mt-20">Sales Buddi isn’t another motivational app. It’s a sales performance system powered by psychology, AI, and real-world experience.</p>
+         </div>
+         <!-- What Sales Buddi Boxes -->
+        <div class="what-sales-boxes-wrapper mt-30 mt-lg-65">
+            <div class="what-sales-boxes-inner">
+                <div class="what-sales-contents">
+                    <h5><span>1</span>Tailored Personality Coaching</h5>
+                    <p><span>Your sales style is unique</span>- your coaching should be too.</p>
+                    <p class="mt-20 mt-lg-30">Sales Buddi adapts its personality, tone, and tactics based on your type. Whether you’re a “Charming Closer” or a “Strategic Thinker,” Buddi matches your vibe and helps you master your edge.</p>
+                    <div class="what-sales-box-footer mt-50 mt-lg-80">
+                         <span class="qute-icon"><img src="assets/images/quote.png" alt=""></span>
+                         <p>“It’s like talking to a coach who gets me - not some generic advice-bot.” <span>— Jess K.</span></p>
+                    </div>
+                </div>
+                <div class="what-sales-image media">
+                    <img src="assets/images/what-sales-img-1.png" alt="">
+                </div>
+            </div>
+            <!-- What Sales Boxes Item -->
+             <div class="what-sales-boxes-inner">
+                <div class="what-sales-contents">
+                    <h5><span>2</span>Sales & Psychology Mastery</h5>
+                    <p>Buddi doesn’t just tell you what to say. <span>It teaches you why it works.</span></p>
+                   <div class="what-sales-list">
+                      <p>You’ll master:</p>
+                      <ul>
+                         <li>Objection handling using real psychological triggers.</li>
+                         <li>The art of emotional mirroring.</li>
+                         <li>The science of timing, tone, and trust.</li>
+                      </ul>
+                      <p>Every chat feels like a mini sales masterclass - but faster, funnier, and way more useful than any $5,000 seminar.</p>
+                   </div>
+                </div>
+                <div class="what-sales-image media">
+                    <img src="assets/images/what-sales-img-2.png" alt="">
+                </div>
+            </div>
+            <!-- What Sales Boxes Item -->
+             <div class="what-sales-boxes-inner">
+                <div class="what-sales-contents">
+                    <h5><span>3</span>Follow-Up Genius</h5>
+                    <div class="follow-up-contens mt-50 mt-lg-200">
+                         <p>You know those messages you mean to send, but never do? </p>
+                         <p>Buddi crafts perfect follow-ups that sound like you, but better. </p>
+                         <p class="mt-20 mt-lg-30">No more ghosted leads. No more awkward “just checking in” texts. Turn “maybe later” into “send me the contract.”</p> 
+                     </div>
+                </div>
+                <div class="what-sales-image media">
+                    <img src="assets/images/what-sales-img-3.png" alt="">
+                </div>
+            </div>
+            <!-- What Sales Boxes Item -->
+             <div class="what-sales-boxes-inner">
+                <div class="what-sales-contents">
+                    <h5><span>4</span>Post-Meeting Breakdown</h5>
+                    <div class="mt-50 mt-lg-200">
+                        <p>Win or lose, <span>Buddi’s got receipts.</span></p>
+                        <div class="what-sales-list">
+                            <p>After every meeting or call, it helps you:</p>
+                            <ul>
+                                <li>Analyze what worked.</li>
+                                <li>Identify what didn’t.</li>
+                                <li>Learn how to nail it next time. </li>
+                            </ul>
+                            <p>Like having a sales replay coach - minus the judgment.</p>
+                        </div>
+                    </div>
+                  </div>
+                <div class="what-sales-image media">
+                    <img src="assets/images/what-sales-img-4.png" alt="">
+                </div>
+            </div>
+            <!-- What Sales Boxes Item -->
+             <div class="what-sales-boxes-inner">
+                <div class="what-sales-contents">
+                    <h5><span>5</span>Motivation That Actually Works</h5>
+                    <div class="follow-up-contens mt-50 mt-lg-200">
+                         <p>Buddi’s not afraid to hype you up - or roast you a little when you need it.</p>
+                         <p>Because motivation isn’t just quotes and coffee mugs - it’s accountability, feedback, and small daily wins.</p>
+                         <p class="mt-20 mt-lg-30">You’ll never go into a pitch feeling unprepared again.</p> 
+                     </div>
+                </div>
+                <div class="what-sales-image media">
+                    <img src="assets/images/what-sales-img-5.png" alt="">
+                </div>
+            </div>
+            <!-- What Sales Boxes Item End -->
+        </div>
+        <div class="what-sales-footer mt-20 mt-lg-40 text-center">
+            <p>Turn guesswork into game plans. Doubt into confidence. Rejections into commissions.</p>
+            <div class="section-btn mt-25 mt-lg-40">
+                 <a href="index.php" class="site-btn">Take the Sales Persona Quiz</a>
+            </div>
+        </div>
+     </div>
+ </section>
+<!-- What Sales Buddi End -->
 <!-- Sales Review Section -->
  <section class="sales-review-section pt-50 pb-50 pt-lg-100 pb-lg-140">
-     <div class="section-heading text-center">
+     <div class="section-heading layout-padding text-center">
          <img src="assets/images/team-reviews.png" alt="" class="clients-review media mb-25">
           <h2>What <span>Real Sales-People</span> Are Saying</h2>
          </div>
@@ -25,8 +126,8 @@
                    </span>
                     <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
                     <div class="sales-review-thumb">
-                         <img src="assets/images/review-thumb-1.png" alt="">
-                         <span>John S.</span>
+                         <img src="assets/images/review-thumb-2.png" alt="">
+                         <span>Christine M.</span>
                     </div>
                </div>
             <!-- Sales Review Box Item -->
@@ -36,8 +137,8 @@
                    </span>
                     <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
                     <div class="sales-review-thumb">
-                         <img src="assets/images/review-thumb-1.png" alt="">
-                         <span>John S.</span>
+                         <img src="assets/images/review-thumb-3.png" alt="">
+                         <span>Kevin L.</span>
                     </div>
                </div>
             <!-- Sales Review Box Item -->
@@ -48,13 +149,13 @@
                     <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
                     <div class="sales-review-thumb">
                          <img src="assets/images/review-thumb-1.png" alt="">
-                         <span>John S.</span>
+                         <span>Kevin L.</span>
                     </div>
                </div>
             <!-- Sales Review Box Item -->
           </div>
 
-          <div class="sales-review-boxes-wrapper sales-review-rtl mt-25 mt-lg-45" dir="rtl">
+          <div class="sales-review-boxes-wrapper sales-review-rtl" dir="rtl">
                <div class="sales-review-box">
                    <span class="stars-review">
                        <img src="assets/images/review-stars.svg" alt="">
@@ -62,7 +163,7 @@
                     <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
                     <div class="sales-review-thumb">
                          <img src="assets/images/review-thumb-1.png" alt="">
-                         <span>John S.</span>
+                         <span>Christine M.</span>
                     </div>
                </div>
             <!-- Sales Review Box Item -->
@@ -72,8 +173,8 @@
                    </span>
                     <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
                     <div class="sales-review-thumb">
-                         <img src="assets/images/review-thumb-1.png" alt="">
-                         <span>John S.</span>
+                         <img src="assets/images/review-thumb-2.png" alt="">
+                         <span>Kevin L.</span>
                     </div>
                </div>
             <!-- Sales Review Box Item -->
@@ -83,7 +184,7 @@
                    </span>
                     <p>“Sales Buddi pushes me to excel and adapt. The app’s unique approach has made overcoming challenges and hitting targets easier than ever”</p>
                     <div class="sales-review-thumb">
-                         <img src="assets/images/review-thumb-1.png" alt="">
+                         <img src="assets/images/review-thumb-3.png" alt="">
                          <span>John S.</span>
                     </div>
                </div>

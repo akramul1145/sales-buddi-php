@@ -40,7 +40,7 @@ jQuery(document).ready(function($){
                 pauseOnHover: true,
                 responsive: [
                     {
-                        breakpoint: 1024,
+                        breakpoint: 1200,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1
@@ -73,7 +73,7 @@ jQuery(document).ready(function($){
                 pauseOnHover: true,
                 responsive: [
                     {
-                        breakpoint: 1024,
+                        breakpoint: 1200,
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1
