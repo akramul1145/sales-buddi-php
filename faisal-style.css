@@ -124,10 +124,6 @@
 .what-sales-contents {
 	width: auto;
 }
-.what-sales-boxes-inner {
-	grid-template-columns: repeat(1, 1fr);
-	row-gap: 3rem;
-}
 .what-sales-footer p {
 	font-size: 1.25rem;
 }
@@ -138,6 +134,10 @@
 }
 .what-sales-box-footer p {
 	font-size: 1.1rem;
+}
+.what-sales-boxes-inner {
+	grid-template-columns: repeat(1, 1fr);
+	row-gap: 3rem;
 }
 }
 /* What Sales Css End */

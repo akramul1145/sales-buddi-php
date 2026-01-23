@@ -44,7 +44,7 @@
              <div class="what-sales-boxes-inner">
                 <div class="what-sales-contents">
                     <h5><span>3</span>Follow-Up Genius</h5>
-                    <div class="follow-up-contens mt-50 mt-lg-200">
+                    <div class="follow-up-contens mt-50 mt-md-80 mt-lg-200">
                          <p>You know those messages you mean to send, but never do? </p>
                          <p>Buddi crafts perfect follow-ups that sound like you, but better. </p>
                          <p class="mt-20 mt-lg-30">No more ghosted leads. No more awkward “just checking in” texts. Turn “maybe later” into “send me the contract.”</p> 
@@ -58,7 +58,7 @@
              <div class="what-sales-boxes-inner">
                 <div class="what-sales-contents">
                     <h5><span>4</span>Post-Meeting Breakdown</h5>
-                    <div class="mt-50 mt-lg-200">
+                    <div class="mt-50 mt-md-80 mt-lg-200">
                         <p>Win or lose, <span>Buddi’s got receipts.</span></p>
                         <div class="what-sales-list">
                             <p>After every meeting or call, it helps you:</p>
@@ -79,7 +79,7 @@
              <div class="what-sales-boxes-inner">
                 <div class="what-sales-contents">
                     <h5><span>5</span>Motivation That Actually Works</h5>
-                    <div class="follow-up-contens mt-50 mt-lg-200">
+                    <div class="follow-up-contens mt-50 mt-md-80 mt-lg-200">
                          <p>Buddi’s not afraid to hype you up - or roast you a little when you need it.</p>
                          <p>Because motivation isn’t just quotes and coffee mugs - it’s accountability, feedback, and small daily wins.</p>
                          <p class="mt-20 mt-lg-30">You’ll never go into a pitch feeling unprepared again.</p> 
@@ -91,7 +91,7 @@
             </div>
             <!-- What Sales Boxes Item End -->
         </div>
-        <div class="what-sales-footer mt-20 mt-lg-40 text-center">
+        <div class="what-sales-footer mt-30 mt-lg-40 text-center">
             <p>Turn guesswork into game plans. Doubt into confidence. Rejections into commissions.</p>
             <div class="section-btn mt-25 mt-lg-40">
                  <a href="index.php" class="site-btn">Take the Sales Persona Quiz</a>
