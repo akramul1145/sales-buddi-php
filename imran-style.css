@@ -382,6 +382,9 @@
 
 /* Value Proposition */
 .section-heading h2 {
+}
+/* Value Proposition */
+.section-heading h2 {
 	text-align: center;
 	line-height: normal;
 	letter-spacing: -0.96px;
@@ -582,17 +585,17 @@
 
 
 @media only screen and (max-width: 400px){
-	.take-the-quiz-content {
-		position: relative;
-		margin-bottom: 40px;
-}
-	.chech-icon {
-		position: absolute;
-		top: -16px;
-}
-	.the-science-behiend-section {
-		padding: 26px 16px;
-}
+		.take-the-quiz-content {
+			position: relative;
+			margin-bottom: 40px;
+	}
+		.chech-icon {
+			position: absolute;
+			top: -16px;
+	}
+		.the-science-behiend-section {
+			padding: 26px 16px;
+	}
 }
 
 
@@ -665,4 +668,29 @@
 	.how-it-works-items-wrapper {
 		grid-template-columns: repeat(1, 1fr);
 }
+
 }
+
+
+@media only screen and (max-width: 400px){
+.make-money-icon {
+	max-width: 105px;
+	max-height: 105px;
+	top: -12px;
+	right: 0;
+}
+.abc-icon.media {
+	max-width: 88px;
+	max-height: 75px;
+	top: 15px;
+	right: 0;
+}
+.closer-icon {
+	max-width: 155px;
+	max-height: 72px;
+	top: 17px;
+	right: 0;
+}
+}
+
+
