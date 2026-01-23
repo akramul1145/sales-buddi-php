@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="app-showcase-section pt-lg-60 pt-40">
+        <div class="app-showcase-section pt-lg-60 pt-35 pb-lg-80 pb-20">
             <div class="app-showcase-inner">
                 <div class="mobile-mockup media">
                     <img src="./assets/images/app-showcase.png" alt="">
@@ -389,3 +389,204 @@
 </section>
 <!-- Hero End -->
 
+<!-- Introducing Sales Buddi Start -->
+ <section class="introducing-sales-buddi">
+    <div class="introducing-sales-buddi-inner layout-padding sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
+        <div class="introducing-section-headding">
+            <h2>Introducing Sales Buddi</h2>
+            <p>The AI Sales Coach that actually gives a damn about your success.</p>
+        </div>
+        <div class="introducing-section-content-wrapper">
+            <div class="introducing-section-media media">
+                <img src="./assets/images/solid-background-width-logo.png" alt="Introducing Sales Buddi Logo">
+            </div>
+            <div class="introducing-section-content pt-40 pb-40">
+                <h3><span>Meet Sales Buddi</span> - your personal, no-BS, AI-powered sales coach.</h3>
+                <ul class="introducing-list">
+                    <li>Smart enough to give you next-level strategy.</li>
+                    <li>Savage enough to call you out when you’re slacking.</li>
+                    <li>And funny enough to make you laugh between rejections.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="sales-buddi-personalizes-section pt-lg-40 pt-45">
+            <div class="buddi-personalizes-item-wrapper">
+                <div class="personalizes-item media">
+                    <img src="./assets/images/settings.svg" alt="">
+                </div>
+                <p><span>Sales Buddi</span> adapts to your unique sales personality through a quick (and freakishly accurate) quiz.</p>
+            </div>
+
+            <div class="buddi-personalizes-item-wrapper">
+                <div class="personalizes-item media">
+                    <img src="./assets/images/sliders.svg" alt="">
+                </div>
+                <p>Then it customizes everything - from your coaching style to your feedback - <span>to fit you perfectly.</span></p>
+            </div>
+
+            <div class="buddi-personalizes-item-wrapper">
+                <div class="personalizes-item media">
+                    <img src="./assets/images/chat.svg" alt="">
+                </div>
+                <p>Think of it as having your own mix of Jordan Belfort, Tony Robbins, and Dr. Phil… <span>all rolled into one, minus the ego.</span></p>
+            </div>
+        </div>
+
+
+    </div>
+ </section>
+
+<!-- Introducing Sales Buddi End -->
+
+
+<!-- Value Proposition Start -->
+<section class="value-proposition layout-padding">
+    <div class="value-proposition-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
+        <div class="section-heading pb-50">
+            <h2>Unlock Your Sales Personality  - <br> <span>and Watch Everything Click</span></h2>
+        </div>
+        <div class="value-proposition-content-wrapper">
+            <div class="value-proposition-content">
+                <P> <span>Every great salesperson sells differently.</span> <br>Some charm. Some persuade. Some dominate. Most? They never figure out what makes their style work.</P>
+                <P class="text-color">That’s where the <span>Sales Buddi Personality Quiz</span> comes in.</P>
+                <div class="value-proposition-inner-wrapper">
+                    <p>It’s fast, fun, and freakishly accurate - designed by behavioral psychologists and top sales trainers to reveal how you sell best.</p>
+                </div>
+                <p>Once you take it, <span>Sales Buddi instantly tailors your entire coaching experience to match your unique DNA:</span> <br> your tone, your mindset, your motivators, your blind spots, even how you handle rejection.</p>
+               <div class="value-proposition-btn">
+                    <a href="#" class="site-btn quiz-btn">Take the Sales Persona Quiz</a>
+               </div>
+            </div>
+            <div class="value-proposition-media media">
+                <img src="./assets/images/value-proposition-image.png" alt="">
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Value Proposition End -->
+
+<!-- Why Take the Quiz Section Start -->
+<section class="take-the-quiz layout-padding">
+    <div class="take-the-quiz-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
+        <div class="section-heading pb-50">
+            <h2>Why Take the Quiz?</span></h2>
+        </div>
+        <div class="take-the-quiz-content-wrapper">
+            <div class="take-the-quiz-content">
+                <div class="quiz-heading">
+                    <h4>Get Coaching That Actually Fits You</h4>
+                </div>
+                <div class="quiz-content-inner">
+                    <p> No more cookie-cutter advice. Buddi adapts its personality, feedback, and training style based on your results — so every tip feels natural and actionable.</p>
+                    <div class="chech-icon media">
+                        <img src="./assets/images/check-icon.svg" alt="check-icon">
+                    </div>
+                </div>
+            </div>
+            <div class="take-the-quiz-content">
+                <div class="quiz-heading">
+                    <h4>Discover Your Sales Superpower</h4>
+                </div>
+                <div class="quiz-content-inner">
+                    <p>  Find out whether you’re a Charmer, Strategist, Challenger, or Analyzer — and learn how to double down on what makes you unstoppable.</p>
+                    <div class="chech-icon media">
+                        <img src="./assets/images/check-icon.svg" alt="check-icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="take-the-quiz-content">
+                <div class="quiz-heading">
+                    <h4>Fix the Gaps That Cost You Deals</h4>
+                </div>
+                <div class="quiz-content-inner">
+                    <p> Buddi doesn’t just hype you up. It identifies the subtle habits and patterns that hold you back, then gives you daily coaching to break them.</p>
+                    <div class="chech-icon media">
+                        <img src="./assets/images/check-icon.svg" alt="check-icon">
+                    </div>
+                </div>
+            </div>
+
+            <div class="take-the-quiz-content">
+                <div class="quiz-heading">
+                    <h4>See Yourself Like Your Buyers Do</h4>
+                </div>
+                <div class="quiz-content-inner">
+                    <p> Understand how customers actually experience you — so you can adjust your tone, pace, and approach for maximum impact.</p>
+                    <div class="chech-icon media">
+                        <img src="./assets/images/check-icon.svg" alt="check-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="the-science-behiend-section pt-lg-40 pt-40">
+            <div class="the-science-behiend-media media">
+                <img src="./assets/images/the-science-behiend.png" alt="the-science-behiend-image">
+            </div>
+            <div class="the-science-behiend-content">
+                <div class="section-heading">
+                    <h3>The <span>Science</span> Behind It</h3>
+                    <p>This isn’t a personality quiz for fun. <br><br> It’s built on the same behavioral frameworks used by elite sales teams and performance psychologists. <br><br> <span>In just a few minutes, it maps your persuasion style, emotional intelligence, and communication patterns — giving Buddi the data it needs to coach you like a pro.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="what-happens pt-90 pb-48">
+            <h3>What Happens After</h3>
+            <p>Once your results load, your <span>Buddi comes to life - cracking jokes, dropping insights, and serving personalized micro-coaching that actually works.</span> <br> <br> You’ll immediately see how to turn your natural style into a repeatable, high-performing system.</p>
+            <a href="#" class="site-btn quiz-btn">Take the Sales Persona Quiz</a>
+
+        </div>
+    </div>
+
+</section>
+
+<!-- Why Take the Quiz Section End -->
+
+<!-- How It Works Seles Buddi Start -->
+<section class="how-it-works layout-padding">
+    <div class="how-it-works-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
+        <div class="section-heading pb-50">
+            <h2>How It Works - <br> <span>IN 3 SIMPLE STEPS</span></h2>
+        </div>
+        <div class="how-it-works-items-wrapper pt-lg-50 pb-lg-50 pb-40">
+            <div class="how-it-works-item step-1">
+                <h3>Step 1</h3>
+                <h4>Download the App</h4>
+                <p>Get Sales Buddi on your phone in seconds. No onboarding circus, no setup headaches. Just pure plug-and-play sales power.</p>
+                <div class="make-money-icon media">
+                    <img src="./assets/images/make-money.png" alt="make-money-icon">
+                </div>
+            </div>
+
+            <div class="how-it-works-item step-2">
+                <h3>Step 2</h3>
+                <h4>Take the Personality Quiz</h4>
+                <p>Answer a few fun (and surprisingly deep) questions to unlock your Sales Persona. Buddi learns how you sell, think, and handle pressure.</p>
+                <div class="abc-icon media">
+                    <img src="./assets/images/abc.png" alt="abc-icon">
+                </div>
+            </div>
+
+            <div class="how-it-works-item step-3">
+                <h3>Step 3</h3>
+                <h4>Start Closing More Deals</h4>
+                <p>Get Sales Buddi on your phone in seconds. No onboarding circus, no setup headaches. Just pure plug-and-play sales power.</p>
+                <div class="closer-icon media">
+                    <img src="./assets/images/closer.png" alt="closer-icon">
+                </div>
+            </div>
+        </div>
+
+        <div class="how-it-works-bottom">
+            <h4>Yes, it really is that easy.</h4>
+            <div class="how-it-works-btn">
+                <a href="#" class="site-btn quiz-btn">Take the Sales Persona Quiz</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- Value Proposition End -->
