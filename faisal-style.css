@@ -498,6 +498,8 @@ p {
 }
 .deal-slip-right {
 	max-width: 18.75rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 }
 @media only screen and (max-width: 767px) {
@@ -520,6 +522,9 @@ p {
 .site-btn {
 	font-size: 0.938rem;
 	padding: 0.75rem 1.75rem;
+}
+.deal-slip-left {
+	text-align: center;
 }
 }
 /*
