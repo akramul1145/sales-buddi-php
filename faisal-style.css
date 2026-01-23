@@ -227,11 +227,18 @@
 
 
 /* Story Section Css Start */
+.story-section .sb-container {
+	max-width: 69.875rem;
+}
 .story-inner {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	column-gap: 1.5rem;
 	align-items: center;
+	margin-top: 2.5rem;
+}
+.story-right .heading-description {
+	color: var(--sb-white);
 }
 .story-right p:nth-child(2){
 	color: #9E9E9E;
@@ -239,11 +246,6 @@
 .story-right p {
   color: #E2E6E9;
 }
-
-.story-right {
-	max-width: 35.938rem;
-}
-
 @media only screen and (max-width: 767px) {
 .story-inner {
 	grid-template-columns: repeat(1, 1fr);
@@ -255,6 +257,9 @@
 /* Story Section Css End */
 
 /* Psychology Advantage Css Start */
+.psychology-advantage .sb-container {
+	max-width: 69.875rem;
+}
 .heading-description {
   color: var(--sb-white);
   font-weight: 600;
@@ -268,9 +273,6 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 2rem;
-}
-.psychology-advantage-left {
-	max-width: 34.688rem;
 }
 .contents-list-box {
 	margin: 0;
@@ -492,17 +494,22 @@ Deal Slip Away Section
 p {
 	font-size: 0.9375rem;
 }
-.deal-slip-inner {
-	grid-template-columns: repeat(1, 1fr);
-	row-gap: 2.813rem;
-}
 .deal-slip-right {
 	max-width: 18.75rem;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+}
+.deal-slip-right img {
+	height: auto;
 }
 }
 @media only screen and (max-width: 767px) {
 .sec_border::before {
 	height: 0.2rem;
+}
+.deal-slip-inner {
+	grid-template-columns: repeat(1, 1fr);
 }
 .deal-slip-content-bottom h4 {
 	font-size: 1rem;
@@ -520,6 +527,12 @@ p {
 .site-btn {
 	font-size: 0.938rem;
 	padding: 0.75rem 1.75rem;
+}
+.deal-slip-left {
+	text-align: center;
+}
+.socials-app-wrapper {
+	justify-content: center;
 }
 }
 /*

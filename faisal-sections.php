@@ -44,7 +44,7 @@
              <div class="what-sales-boxes-inner">
                 <div class="what-sales-contents">
                     <h5><span>3</span>Follow-Up Genius</h5>
-                    <div class="follow-up-contens mt-50 mt-md-80 mt-lg-200">
+                    <div class="follow-up-contens mt-50 mt-lg-200">
                          <p>You know those messages you mean to send, but never do? </p>
                          <p>Buddi crafts perfect follow-ups that sound like you, but better. </p>
                          <p class="mt-20 mt-lg-30">No more ghosted leads. No more awkward “just checking in” texts. Turn “maybe later” into “send me the contract.”</p> 
@@ -58,7 +58,7 @@
              <div class="what-sales-boxes-inner">
                 <div class="what-sales-contents">
                     <h5><span>4</span>Post-Meeting Breakdown</h5>
-                    <div class="mt-50 mt-md-80 mt-lg-200">
+                    <div class="mt-50 mt-lg-200">
                         <p>Win or lose, <span>Buddi’s got receipts.</span></p>
                         <div class="what-sales-list">
                             <p>After every meeting or call, it helps you:</p>
@@ -79,7 +79,7 @@
              <div class="what-sales-boxes-inner">
                 <div class="what-sales-contents">
                     <h5><span>5</span>Motivation That Actually Works</h5>
-                    <div class="follow-up-contens mt-50 mt-md-80 mt-lg-200">
+                    <div class="follow-up-contens mt-50 mt-lg-200">
                          <p>Buddi’s not afraid to hype you up - or roast you a little when you need it.</p>
                          <p>Because motivation isn’t just quotes and coffee mugs - it’s accountability, feedback, and small daily wins.</p>
                          <p class="mt-20 mt-lg-30">You’ll never go into a pitch feeling unprepared again.</p> 
@@ -208,7 +208,7 @@
 <!-- Sales Review Section End -->
 
 <!-- Story Section Start -->
- <section class="story-section sec_border layout-padding pt-50 pt-lg-100">
+ <section class="story-section sec_border layout-padding pt-50 pb-50 pt-lg-100 pb-lg-100">
      <div class="sb-container">
          <div class="section-heading text-center">
              <h2>The Story Behind <span>The Tech</span></h2>
@@ -331,7 +331,7 @@
 <section class="deal-slip-away sec_border layout-padding pt-50 pt-lg-100">
     <div class="sb-container">
         <div class="deal-slip-inner">
-            <div class="deal-slip-left">
+            <div class="deal-slip-left pb-50">
                 <div class="section-heading">
                     <h2>Don't Let Another Deal Slip Away</h2>
                     <p>You're better than your last cold call. You've got potential most managers will never spot.
@@ -341,7 +341,7 @@
                     <h4><span>Stop guessing.</span> Start closing.</h4>
                     <p>Your AI sales coach is waiting.</p>
                     <a href="index.php" class="site-btn">Take the Sales Persona Quiz</a>
-                    <img src="assets/images/team-reviews.png" alt="" class="clients-review media">
+                    <div><img src="assets/images/team-reviews.png" alt="" class="clients-review media"></div>
                     <div class="socials-app-wrapper">
                         <a href="#" class="media">
                             <img src="assets/images/app-store.svg" alt="">
