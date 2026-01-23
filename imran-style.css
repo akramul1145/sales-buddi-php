@@ -686,6 +686,9 @@
 .how-it-works-bottom {
 	text-align: center;
 }
+.how-it-works-bottom h4 {
+	margin-bottom: 1.5rem;
+}
 
 @media only screen and (max-width: 1200px){
 	.make-money-icon {
