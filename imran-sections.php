@@ -469,7 +469,7 @@
 <!-- Why Take the Quiz Section Start -->
 <section class="take-the-quiz layout-padding">
     <div class="take-the-quiz-inner sb-container pt-lg-100 pt-60 pb-lg-100 pb-60">
-        <div class="section-heading pb-50 text-center">
+        <div class="section-heading pb-50">
             <h2>Why Take the Quiz?</span></h2>
         </div>
         <div class="take-the-quiz-content-wrapper">
