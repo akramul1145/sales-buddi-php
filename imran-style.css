@@ -637,10 +637,10 @@
 	background: var(--sb-primary);
 }
 .how-it-works-item.step-2 {
-  background: #BCA5FF;
+	background: #BCA5FF;
 }
 .how-it-works-item.step-3 {
-  background: #6D9EFF;
+	background: #6D9EFF;
 }
 .how-it-works-item h3 {
 	color: #121212;
