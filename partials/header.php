@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="page">
     <main class="site-main">
         <!-- Imran's Code - Header Section -->
         <header class="site-header layout-padding pt-lg-25 pt-15 pb-lg-25 pb-15">

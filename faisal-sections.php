@@ -45,8 +45,8 @@
                 <div class="what-sales-contents">
                     <h5><span>3</span>Follow-Up Genius</h5>
                     <div class="follow-up-contens mt-50 mt-lg-200">
-                         <p>You know those messages you mean to send, but never do? </p>
-                         <p>Buddi crafts perfect follow-ups that sound like you, but better. </p>
+                         <p>You know those messages you mean to send, but never do?</p>
+                         <p>Buddi crafts perfect follow-ups that sound like you, but better.</p>
                          <p class="mt-20 mt-lg-30">No more ghosted leads. No more awkward “just checking in” texts. Turn “maybe later” into “send me the contract.”</p> 
                      </div>
                 </div>
@@ -65,7 +65,7 @@
                             <ul>
                                 <li>Analyze what worked.</li>
                                 <li>Identify what didn’t.</li>
-                                <li>Learn how to nail it next time. </li>
+                                <li>Learn how to nail it next time.</li>
                             </ul>
                             <p>Like having a sales replay coach - minus the judgment.</p>
                         </div>
