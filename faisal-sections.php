@@ -25,16 +25,18 @@
              <div class="what-sales-boxes-inner">
                 <div class="what-sales-contents">
                     <h5><span>2</span>Sales & Psychology Mastery</h5>
-                    <p>Buddi doesn’t just tell you what to say. <span>It teaches you why it works.</span></p>
-                   <div class="what-sales-list">
-                      <p>You’ll master:</p>
-                      <ul>
-                         <li>Objection handling using real psychological triggers.</li>
-                         <li>The art of emotional mirroring.</li>
-                         <li>The science of timing, tone, and trust.</li>
-                      </ul>
-                      <p>Every chat feels like a mini sales masterclass - but faster, funnier, and way more useful than any $5,000 seminar.</p>
-                   </div>
+                    <div class="mt-30 mt-lg-120">
+                        <p>Buddi doesn’t just tell you what to say. <span>It teaches you why it works.</span></p>
+                        <div class="what-sales-list">
+                            <p>You’ll master:</p>
+                            <ul>
+                                <li>Objection handling using real psychological triggers.</li>
+                                <li>The art of emotional mirroring.</li>
+                                <li>The science of timing, tone, and trust.</li>
+                            </ul>
+                            <p>Every chat feels like a mini sales masterclass - but faster, funnier, and way more useful than any $5,000 seminar.</p>
+                        </div>
+                    </div>
                 </div>
                 <div class="what-sales-image media">
                     <img src="assets/images/what-sales-img-2.png" alt="">
