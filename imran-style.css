@@ -297,7 +297,6 @@
 	fill: #CBF56D;
 	filter: drop-shadow(0 0 12.9px rgba(212, 247, 134, 0.44));
 }
-
 .sales-buddi-personalizes-section {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -339,6 +338,12 @@
 	.buddi-personalizes-item-wrapper {
 		padding: 2rem 2rem;
 	}
+	.introducing-list li {
+	font-size: 1rem;
+    }
+	.buddi-personalizes-item-wrapper p {
+	    font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -354,6 +359,12 @@
 	.sales-buddi-personalizes-section {
 		grid-template-columns: repeat(1, 1fr);
 	}
+	.buddi-personalizes-item-wrapper p {
+	font-size: 1.125rem;
+	font-weight: 500;
+	line-height: 140%;
+	letter-spacing: -0.0112rem;
+}
 	.buddi-personalizes-item-wrapper::after {
 		width: 100%;
 		height: .0625rem;
