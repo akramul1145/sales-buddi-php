@@ -1362,21 +1362,7 @@ Deal Slip Away Section End
 }
 
 
-.what-sales-footer {
-	margin-top: 420px;
-}
 
-@media (max-width: 767px) {
-	.what-sales-footer {
-		margin-top: 850px;
-	}
-}
-
-@media (max-width: 575px) {
-	.what-sales-footer {
-		margin-top: 630px;
-	}
-}
 
 .sc_card {
   will-change: transform;

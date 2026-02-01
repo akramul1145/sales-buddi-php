@@ -94,42 +94,90 @@ jQuery(document).ready(function($){
 
 
 
+       gsap.registerPlugin(ScrollTrigger);
 
+            ScrollTrigger.matchMedia({
 
+            // ✅ Desktop only
+            "(min-width: 992px)": function () {
 
+                const cardsWrappers = gsap.utils.toArray(".sc_card-wrapper");
+                const cards = gsap.utils.toArray(".sc_card");
 
-       //gsap scrolling animation
-        gsap.registerPlugin(ScrollTrigger);
+                cardsWrappers.forEach((wrapper, i) => {
+                const card = cards[i];
 
-        const cardsWrappers = gsap.utils.toArray(".sc_card-wrapper");
-        const cards = gsap.utils.toArray(".sc_card");
-
-        cardsWrappers.forEach((wrapper, i) => {
-            const card = cards[i];
-            let scale = 1,
-                rotation = 0;
-            if (i !== cards.length - 1) {
-                scale = 0.9 + 0.025 * i;
-                rotation = 0;
-            }
-            gsap.to(card, {
-                scale: scale,
-                rotationX: rotation,
-                transformOrigin: "top center",
-                ease: "none",
-                scrollTrigger: {
-                trigger: wrapper,
-                start: "top " + (60 + 100 * i),
-                end: "bottom 550",
-                endTrigger: ".sc_wrapper",
-                scrub: true,
-                anticipatePin: 0.5,
-                pin: wrapper,
-                pinSpacing: false,
-                id: i + 1
+                let scale = 1;
+                if (i !== cards.length - 1) {
+                    scale = 0.9 + 0.025 * i;
                 }
+
+                gsap.to(card, {
+                    scale: scale,
+                    transformOrigin: "top center",
+                    ease: "none",
+                    scrollTrigger: {
+                    trigger: wrapper,
+                    start: "top " + (60 + 100 * i),
+                    end: "bottom 550",
+                    endTrigger: ".sc_wrapper",
+                    scrub: 0.3,
+                    anticipatePin: 1,
+                    pin: wrapper,
+                    pinSpacing: false,
+                    invalidateOnRefresh: true
+                    }
+                });
+                });
+
+
+
+                var maxHeight = jQuery(".sc_cards .pin-spacer:last-child").height() - 30; 
+                jQuery(".what-sales-footer").css("margin-top", maxHeight + "px");
+
+                console.log(maxHeight);
+
+            }
+
             });
-        });
+
+
+
+
+
+
+    //    //gsap scrolling animation
+    //     gsap.registerPlugin(ScrollTrigger);
+
+    //     const cardsWrappers = gsap.utils.toArray(".sc_card-wrapper");
+    //     const cards = gsap.utils.toArray(".sc_card");
+
+    //     cardsWrappers.forEach((wrapper, i) => {
+    //         const card = cards[i];
+    //         let scale = 1,
+    //             rotation = 0;
+    //         if (i !== cards.length - 1) {
+    //             scale = 0.9 + 0.025 * i;
+    //             rotation = 0;
+    //         }
+    //         gsap.to(card, {
+    //             scale: scale,
+    //             rotationX: rotation,
+    //             transformOrigin: "top center",
+    //             ease: "none",
+    //             scrollTrigger: {
+    //             trigger: wrapper,
+    //             start: "top " + (60 + 100 * i),
+    //             end: "bottom 550",
+    //             endTrigger: ".sc_wrapper",
+    //             scrub: true,
+    //             anticipatePin: 0.5,
+    //             pin: wrapper,
+    //             pinSpacing: false,
+    //             id: i + 1
+    //             }
+    //         });
+    //     });
 
 
 
@@ -138,10 +186,10 @@ jQuery(document).ready(function($){
 
 
 
-  var maxHeight = jQuery(".sc_cards .pin-spacer:last-child").height() - 30; 
-  jQuery(".what-sales-footer").css("margin-top", maxHeight + "px");
+    //     var maxHeight = jQuery(".sc_cards .pin-spacer:last-child").height() - 30; 
+    //     jQuery(".what-sales-footer").css("margin-top", maxHeight + "px");
 
-  console.log(maxHeight);
+    //     console.log(maxHeight);
 
 
 
