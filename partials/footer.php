@@ -11,6 +11,9 @@
     <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="./assets/js/slick.min.js"></script>
+    <!-- GSAP and ScrollTrigger for scroll-driven animations -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="./assets/js/scripts.js" defer></script>
 </div> <!-- End of #page -->
 </body>

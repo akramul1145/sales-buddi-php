@@ -1,18 +1,18 @@
 
-jQuery(document).ready(function($){ 
+jQuery(document).ready(function($){
 
 
         $('.accordion-header').eq(0).addClass('active');
         $('.accordion-content').eq(0).slideDown();
 
         $(".accordion-header").on('click', function (){
-            
+
             var trigger = $(this);
             var hasClass = trigger.hasClass('active');
 
             $('.accordion-header').removeClass('active');
             $('.accordion-header').next().slideUp();
-            
+
             if(hasClass) {
                 trigger.removeClass('active');
                 trigger.next().slideUp();
@@ -20,7 +20,7 @@ jQuery(document).ready(function($){
 
             else {
                 trigger.addClass('active');
-                trigger.next().slideToggle();          
+                trigger.next().slideToggle();
             }
 
         });
@@ -90,8 +90,86 @@ jQuery(document).ready(function($){
             });
             console.log('RTL carousel initialized');
        }
-		
 
 
-    
-});   
+
+
+
+
+
+
+       //gsap scrolling animation
+        gsap.registerPlugin(ScrollTrigger);
+
+        const cardsWrappers = gsap.utils.toArray(".sc_card-wrapper");
+        const cards = gsap.utils.toArray(".sc_card");
+
+        cardsWrappers.forEach((wrapper, i) => {
+            const card = cards[i];
+            let scale = 1,
+                rotation = 0;
+            if (i !== cards.length - 1) {
+                scale = 0.9 + 0.025 * i;
+                rotation = 0;
+            }
+            gsap.to(card, {
+                scale: scale,
+                rotationX: rotation,
+                transformOrigin: "top center",
+                ease: "none",
+                scrollTrigger: {
+                trigger: wrapper,
+                start: "top " + (60 + 100 * i),
+                end: "bottom 550",
+                endTrigger: ".sc_wrapper",
+                scrub: true,
+                anticipatePin: 0.5,
+                pin: wrapper,
+                pinSpacing: false,
+                id: i + 1
+                }
+            });
+        });
+
+
+
+
+
+
+
+
+  var maxHeight = jQuery(".sc_cards .pin-spacer:last-child").height() - 30; 
+  jQuery(".what-sales-footer").css("margin-top", maxHeight + "px");
+
+  console.log(maxHeight);
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+});
+
+
+
+
