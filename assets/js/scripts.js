@@ -96,10 +96,8 @@ jQuery(document).ready(function($){
 
        gsap.registerPlugin(ScrollTrigger);
 
-            ScrollTrigger.matchMedia({
 
-            // ✅ Desktop only
-            "(min-width: 992px)": function () {
+
 
                 const cardsWrappers = gsap.utils.toArray(".sc_card-wrapper");
                 const cards = gsap.utils.toArray(".sc_card");
@@ -137,9 +135,8 @@ jQuery(document).ready(function($){
 
                 console.log(maxHeight);
 
-            }
+           
 
-            });
 
 
 
