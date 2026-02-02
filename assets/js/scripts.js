@@ -119,11 +119,12 @@ jQuery(document).ready(function($){
                     start: "top " + (60 + 100 * i),
                     end: "bottom 550",
                     endTrigger: ".sc_wrapper",
-                    scrub: 0.3,
-                    anticipatePin: 1,
+                    scrub: true,
+                    anticipatePin: 0.5,
                     pin: wrapper,
                     pinSpacing: false,
-                    invalidateOnRefresh: true
+                    invalidateOnRefresh: true,
+                    id: i + 1
                     }
                 });
                 });
